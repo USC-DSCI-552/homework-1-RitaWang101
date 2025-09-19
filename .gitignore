@@ -1,0 +1,24 @@
+# Jupyter noise
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+.env
+
+# Large archives (we keep small .dat/.arff datasets tracked)
+*.zip
+*.tar
+*.tar.gz
